@@ -1,0 +1,81 @@
+Language: Cpp
+AccessModifierOffset: -2
+AlignAfterOpenBracket: BlockIndent
+AlignOperands: AlignAfterOperator
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowBreakBeforeNoexceptSpecifier: Always
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+BinPackArguments: true
+BinPackParameters: true
+BitFieldColonSpacing: Both
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeLambdaBody: true
+  BeforeCatch: false
+  IndentBraces: false
+BreakAdjacentStringLiterals: true
+BreakArrays: true
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakBeforeConceptDeclarations: Always
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+# BreakFunctionDefinitionParameters: true
+BreakInheritanceList: BeforeColon
+BreakStringLiterals: true
+# BreakTemplateDeclarations: Yes
+Cpp11BracedListStyle: true
+EmptyLineBeforeAccessModifier: Always
+FixNamespaceComments: true
+# IncludeCategories:
+#   - Regex:           '^"(llvm|llvm-c|clang|clang-c)/'
+#     Priority:        2
+#     SortPriority:    2
+#     CaseSensitive:   true
+#   - Regex:           '^((<|")(gtest|gmock|isl|json)/)'
+#     Priority:        3
+#   - Regex:           '<[[:alnum:].]+>'
+#     Priority:        4
+#   - Regex:           '.*'
+#     Priority:        1
+#     SortPriority:    0
+IndentCaseLabels: false
+IndentExternBlock: AfterExternBlock
+IndentGotoLabels: true
+IndentPPDirectives: None
+IndentRequiresClause: true
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+LambdaBodyIndentation: Signature
+LineEnding: LF
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+PackConstructorInitializers: BinPack
+PointerAlignment: Right
+QualifierAlignment: Left
+ReferenceAlignment: Right
+ReflowComments: true
+RemoveBracesLLVM: true
+RemoveParentheses: MultipleParentheses
+RequiresClausePosition: OwnLine
+RequiresExpressionIndentation: Keyword
+SeparateDefinitionBlocks: Always
+Standard: Latest
+TabWidth: 4
+UseTab: Never
